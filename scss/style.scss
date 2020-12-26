@@ -1,0 +1,228 @@
+$light-color:#000;
+$font:tahoma;
+$color:#000;
+$sec:wheat;
+$primary:#fff;
+$tet:rgba(21, 21, 226, 0.651);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+  
+    font-family: $font;
+    line-height: 1.6;
+  
+}
+
+.jil{
+    color: $primary;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .hil{
+       max-width: 1200px;
+        margin: auto;
+      
+    }
+h2{
+    margin-left:50px;
+}
+.jok{
+    margin-top: 200px;
+    margin-left:50px;
+    h2{
+        margin-left:0px;
+    }
+}
+    nav{
+        justify-content: space-around;
+    }
+    ul{margin-top: -40px;
+        display: flex;
+        margin-right:50px;
+        justify-content: flex-end;
+    }
+    li{
+        padding: 10px;
+        list-style-type: none;
+    }
+    li:hover{
+        background:$tet;
+        border-radius: 10px;
+    }
+    button{
+        background: $primary;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+button:hover{
+    background-color: $tet;
+    transition: 0.5s ease;
+}
+    
+     
+    }
+
+.joke{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    
+    .jik{
+        background-color:whitesmoke;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+}
+.fia{
+    width: 100%;
+    background-color: white;
+    .fie{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-evenly;
+    }
+    
+}
+.parallax {
+    /* The image used */
+  
+  
+    /* Set a specific height */
+   /* Set a specific height */
+   min-height: 300px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .not{
+      display:flex;
+      max-width: 1200px;
+      margin: auto;
+      padding-top:100px;
+      justify-content: space-evenly;
+      h2{
+          font-size:2rem;
+      }
+      input{
+          padding:10px;
+          border: none;
+          background-color: white;
+          border-radius: 5px;
+          margin: 5px;
+         
+      }
+      button{
+        background-color: blue;
+        padding:10px;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+    }
+  }
+  }
+
+  @media screen and (min-width:700px){
+      .of{
+          display: none;
+      }
+  }
+@media screen and (max-width:700px){
+    .joy{
+        display: none;
+    }
+    .sidenav {
+        height: 40%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    .nb{
+        margin-top: -40px;
+    }
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus{
+        color: #f1f1f1;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px !important;
+        margin-left: 50px;
+    }
+    
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+
+    .not{
+    padding-left: 70px;
+   }
+    .fie{
+        width: 60%;
+        margin: auto;
+        .kpl{
+            margin-left: 17px;
+        }
+    }
+    .fir{
+        flex-direction: column;
+    }
+    .fish{
+       flex-direction: column;
+       width:100%;
+       margin: auto;
+   }
+   .jil{
+       height: 500px;
+   }
+
+   .fit{
+       margin-left:25%;
+       margin-top:20px;
+       margin-bottom: 19px;
+   }
+    .joke{
+        flex-direction: column;
+        }
+        .jik{
+            margin-top: 10px;
+        }
+      
+.hil{
+    width: 100%;
+}
+    
+
+}
